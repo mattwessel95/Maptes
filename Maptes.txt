@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="Maptes.css">
+
+</head>
+
+<body>
+<div class="container">
+	<div id="navigation"> <img id="Logo" src="logo.jpg" alt="Maptes Logo">
+ </br>
+<nav class="navi">
+  <ul>
+   <li><a href="HREFAboutUs.html">ABOUT US</a><li></br>
+   <li><a href="HREFHelpYou.html">HOW WE CAN HELP</a></li></br>
+   <li><a href="HREFMaptesBrief.pdf">US AND OUR SERVICE</a></li></br>
+   <li><a href="HREFVeryBriefMaptes.pdf">VERY BRIEF BIO</a></li></br>
+   <li><a href="HREFExamples.pdf">HOW WE'VE HELPED</a><li>
+  </ul>
+ </nav>
+	</div>
+
+	<div id="welcome"><img id="MainPic" src="MainPic.jpg" alt="Main Page Photo"> </div>
+	<div id="clear"> </div>
+</div>
+</body>
+</html>
+
+
+
