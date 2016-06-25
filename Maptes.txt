@@ -1,9 +1,6 @@
 <html>
-
 <head>
-
 	<link rel="stylesheet" href="Maptes.css">
-
 </head>
 
 <body>
@@ -26,6 +23,3 @@
 </div>
 </body>
 </html>
-
-
-
