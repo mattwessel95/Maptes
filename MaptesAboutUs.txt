@@ -1,0 +1,65 @@
+
+
+<!-- saved from url=(0028)http://maptes.com/About.html -->
+<html>
+<head>
+
+ <link rel="stylesheet" href="MaptesAboutUs.css">
+
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+ 
+ <title>Maptes Advanced Projects: Targeted Experienced Consulting Expertise for High
+ Technologies:About Us</title>
+
+ <meta name="KeyWords" content="Maptes Advanced Projects, Consulting, Internet, Networking,
+ Engineering, Aerospace, Computers, Software, Network, Telecom, NMS, EMS, OSS,
+ Project Management, Program Management, Process, projects ,bgp, ospf, mpls, cisco, nortel,
+ dwdm, pop, gsr, router, software, design, consult, expert, senior, experience, flexible, fast,
+ quick, versatile, consulting, proposal, technology, advanced, methods">
+
+</head>
+
+
+<body>
+<div id="MainBody" align="center">
+
+<div id="pic"><img src="logo.jpg" alt="Maptes Logo" align="left"></div>
+<div class="returnHome"></div>
+<div id="content">
+<h1>WHO WE ARE</h1><hr>
+<p>Maptes Advanced Projects LLC is a Missouri Registered Private U.S. Limited Liability Company
+, run day to day by a Managing Partner who is the Chief Executive and Founder, and composed of
+ two Senior partners (with the Managing Partner for the "top 3"), Junior Partners, and
+ consultants.</p>
+
+<p> This structure, combined with well designed organization and processes, allow for quick
+ decisions, fast turn-around of contracts and opportunities, and effective and efficient
+ response not available in other groups.</p></br></br>
+
+<h1>WHY YOU WANT US ON YOUR SIDE</h1><hr>
+<p>We are composed entirely of experts. We do not send inexperienced, wet behind the ears,
+ newbies on our tasks, 
+but instead draw from the long experience of both our partners and associates in a wide
+ variety of high technical fields. 
+When a Maptes Consultant Team (or Individual) arrives for your effort, 
+know that either they are one of the partners, or a consultant that we personally know has the
+ required expertise, 
+and has proven their skills to us in previous associations. Our engineer-consultants have cut
+ their teeth on the biggest backbones on the Internet, including those that are likely carrying
+ this web traffic.They have done everything from Tier I ISPs, to government research networks,
+ to small and large LANs and WANs.  
+We pay our consultants well, and they like us, feel personally obligated to deliver. 
+After every fixed term job, or periodically for long term consulting, our VP-Sales and
+ Marketing will personally contact you for an honest assessment of our services. We live
+ primarily by those who can vouch for our expertise. We also take small efforts that other
+ companies leave on the table, to large projects that require project management and budgeting,
+ though we do not take a project unless we can provide you all the expertise you will require. 
+</p>
+
+<p> Bolt on our skills to help you succeed!
+ Email us at <a href="http://maptes.com/sales@maptes.com">sales@maptes.com</a></p>
+</div>
+
+</div>				<!--MAKE LOGO CLICKABLE-->
+</body>
+</html>
