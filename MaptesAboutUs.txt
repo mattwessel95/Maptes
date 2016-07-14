@@ -23,12 +23,23 @@
 <body>
 <div id="MainBody" align="center">
 
-<div id="pic"><img src="logo.jpg" alt="Maptes Logo" align="left"></div>
-<div class="returnHome"></div>
+<div id="pic"><a href="Maptes.html"><img src="logo.jpg" alt="Maptes Logo" align="left"></div></a>
+
 <div id="content">
 <h1>WHO WE ARE</h1><hr>
-<p>Maptes Advanced Projects LLC is a Missouri Registered Private U.S. Limited Liability Company
-, run day to day by a Managing Partner who is the Chief Executive and Founder, and composed of
+
+<!--	<nav class="navi">
+  	 <ul>
+   	  <li><a href="MaptesAboutUs.html">ABOUT US</a><li></br>
+   	  <li><a href="HREFHelpYou.html">HOW WE CAN HELP</a></li></br>
+   	  <li><a href="HREFMaptesBrief.pdf">US AND OUR SERVICE</a></li></br>
+   	  <li><a href="HREFVeryBriefMaptes.pdf">VERY BRIEF BIO</a></li></br>
+   	  <li><a href="HREFExamples.pdf">HOW WE'VE HELPED</a><li>
+  	 </ul>
+ 	</nav>
+-->	
+<p>Maptes Advanced Projects LLC is a Missouri Registered Private U.S. Limited Liability Company,
+ run day to day by a Managing Partner who is the Chief Executive and Founder, and composed of
  two Senior partners (with the Managing Partner for the "top 3"), Junior Partners, and
  consultants.</p>
 
