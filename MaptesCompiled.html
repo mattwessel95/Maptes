@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {margin: 0;}
+@font-face{
+	font-family: Mappy;
+	src: url(Florsn01.ttf)
+}
+
+@icon-font-name{
+
+}
+
+h1{
+	color: #222232;
+	text-shadow: -1px 1px 1px #ff3333;
+	font-family: Mappy;
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
+
+span.M{
+	font-size: 100px;
+	color: 	hsl(240, 100%, 30%);
+	text-shadow: -4px 4px 1px #ff3333;
+}
+
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 24%;
+    background-color: black;
+    background: -webkit-linear-gradient(black 85%, #0452c8);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    z-index: 1;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+ 
+
+ul.sidenav li.ACT a:hover {
+    background-color: #1347A5;
+    color: white;
+    text-shadow: -2px 1px 2px #000000;
+    border-radius: 10px;
+}
+
+
+li.active {
+    background-color: #b0c4de;
+    color: #0452c8;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-radius: 9px;
+}
+
+.notActive {
+    border-color: #b0c4de;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+#content {
+    background-color: #e6f7f7;
+    margin-left: 25%;
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+}
+
+#contentAbout {
+    background: -webkit-linear-gradient( #00325a 15px, #00325a 160px, #d5e6f6 200px);
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-right: 0px;\
+    float: left;
+}
+
+div.main{
+	opacity: 0.9;
+	float: left;
+	margin-left: 0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background: -webkit-repeating-linear-gradient( #00004c, #000033 10%, #00004c 20%);
+	background: -o-repeating-linear-gradient( #00004c, #000033 10%, #00004c 20%);
+	background: -moz-repeating-linear-gradient( #00004c, #000033 10%, #00004c 20%);
+	background: repeating-linear-gradient( #00004c, #000033 10%, #00004c 20%);
+}
+
+div.main p{
+	font-size: 19px;
+	line-height: 1.5;
+	text-indent: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-weight: 100;
+	text-shadow: -3px 3px 5px black;
+}
+
+
+div.middle{
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	background-color: #e6f7f7;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+p.bottom{
+	color: #59f359;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+div.middle p{
+	color: #555555;
+	text-indent: 35px;
+	font-size: 22px;
+	margin-left: 50px;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+
+@media screen and (max-width: 1050px){
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        display: block;
+        float: left;
+        padding: 15px;
+    }
+    #content {margin-left:0;}
+    #contentAbout {margin-left:0;}
+}
+
+@media screen and (max-width: 450px){
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+p.Pabout{
+	font-family: Arial, Helvetica, sans-serif;
+	text-indent: 60px;
+	color: #2C2C2C;
+	font-size: 22px;
+	margin: 0px;
+        padding-left: 35px;
+        padding-right: 35px;
+	padding-top: 30px;
+	line-height: 1.4;
+}
+
+h1.aboutH1{
+	width: 95%;
+	position: relative;
+	left: 7px;
+	color: #00325a;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 75px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	text-shadow: 1px 1px 2px black;
+	float: left;
+}
+
+h2.aboutH2{
+	position: relative;
+	color: #00325a;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 65px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: 1px 1px 2px black;
+}
+
+hr.aboutHR{
+	width: 98%;
+	border-width: 5px;
+	border-bottom-color: white;
+	border-top-color: #0070cc;
+	border-right-color: gray;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<ul class="sidenav">
+  <li><a href="MaptesHome.html"><img src="logo.jpg" alt="Maptes Logo" width="250px"></a></li></br>
+  <li class="active"><a href="MaptesHome.html">HOME</a></li>
+  <li class="ACT"><a class="notActive" href="#AboutUs">ABOUT US</a></li>
+  <li class="ACT"><a class="notActive" href="MaptesHelpYou.html">HOW WE CAN HELP</a></li>
+  <li class="ACT"><a class="notActive" href="HREFMaptesBrief.pdf">US AND OUR SERVICE</a></li>
+  <!--<li><a class="notActive" href="HREFVeryBriefMaptes.pdf">VERY BRIEF BIO</a></li>-->
+  <li class="ACT"><a class="notActive" href="HREFExamples.pdf">HOW WE'VE HELPED</a></li>
+</ul>
+
+<div id="content">
+
+  <h1 align="center">THE <span class="M">M</span>APTES MISSION</h1>
+
+<div class="main">
+  <p>Our core mission here at Maptes is to accept key opportunities to provide senior expertise in areas of high technology  (especially Internet technologies,
+     Networking, Software, and Process/Organization but not limited to these areas) and associated process development and program management. Especially those opportunities
+     overlooked by larger professional services/consulting groups.</p>
+</div>
+
+<div class="middle">
+
+  <p class="bottom"><span class="glyphicon glyphicon-briefcase"></span> Here at Maptes, we specialize in the quick start-up of projects from established templates and methods. We develop specific deliverables (FFP or CP contracts) or
+     establish specific labor expectations (LOE contracts).</p>
+<hr>
+  <p class="bottom"><span class="glyphicon glyphicon-piggy-bank"></span> We keep you in the loop so you know exactly what you're getting for your dollar.</p>
+<hr>   
+  <p class="bottom"><span class="glyphicon glyphicon-globe"></span> Operate in very small teams, who can travel to any US destination, who are exceptionally experienced in the needed field, and can operate with little further guidance,
+     yet professionally interact with customer to ensure satisfaction.</p>
+<hr>
+  <p class="bottom"><span class="glyphicon glyphicon-thumbs-up"></span> We are trying to establish relationships through the word of mouth from your satisfaction to make us grow.</p>
+</br></br></div>
+
+<div id="contentAbout"><a name="AboutUs"></a> 
+<h1 align="center" class="aboutH1">WHO WE ARE</h1><hr class="aboutHR">
+
+<p class="Pabout">Maptes Advanced Projects is a Missouri Registered Private U.S. LLC,
+ run day to day by a Managing Partner who is the Chief Executive and Founder, and composed of
+ two Senior partners (with the Managing Partner for the "top 3"), Junior Partners, and
+ consultants.</p>
+
+<p class="Pabout"> This structure, combined with well designed organization and processes, allow for quick
+ decisions, fast turn-around of contracts and opportunities, and effective and efficient
+ response not available in other groups.</p></br></br>
+
+<h2 align="center" class="aboutH2">WHY  YOU  WANT  US</br>  ON  YOUR  SIDE</h1><hr class="aboutHR">
+<p class="Pabout">Our team is composed entirely of experts. We do not send inexperienced
+ newbies on our tasks, 
+but instead draw from the long experience of both our partners and associates in a wide
+ variety of high technical fields. 
+When a Maptes Consultant Team arrives for your effort, 
+know that either they are one of the partners, or a consultant that we personally know has the
+ required expertise, 
+and has proven their skills to us in previous associations. Our engineer-consultants have cut
+ their teeth on the biggest backbones on the Internet, including those that are likely carrying
+ this web traffic.They have done everything from Tier I ISPs, to government research networks,
+ to small and large LANs and WANs.  
+</p></br>
+<p class="Pabout">After every fixed term job (or periodically for long term consulting) our VP-Sales and
+ Marketing will personally contact you for an honest assessment of our services. We live
+ primarily by those who can vouch for our expertise. We also take small efforts, that other
+ companies leave on the table, towards large projects that require project management and budgeting,
+ though we do not take a project unless we can provide you all the expertise you will require.
+</p></br></br>
+</div>
+
+</div>
+</body>                 <!--BOOTSTRAPS MODAL FOR FORM-->
+</html>
